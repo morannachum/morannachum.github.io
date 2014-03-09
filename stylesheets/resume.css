@@ -1,0 +1,255 @@
+/*
+--------------------------------------------------------------------------------
+
+Based on the YUI framework & Matt Brown's template: sampleresumetemplate.net
+Complete CSS overhaul & much design fine-tuning by Nate Tarrh: natetarrh.com
+
+--------------------------------------------------------------------------------
+*/
+
+body, div, ul, li, li2, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 13px/1.231 serif;
+    font-family: Georgia;
+    font-weight: normal;
+    color: #444;
+    text-align: center;
+}
+
+#doc {
+    margin: auto;
+    text-align: left;
+    width: 950px;
+}
+
+#inner {
+    background: #f5f5f5;
+    border: solid #666;
+    border-width: 8px 0 2px 0;
+    margin: 80px auto;
+    padding: 10px 80px;
+}
+
+#header {
+    margin: 2.5em 0 2em 0;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+#header h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#header h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#main, #footer {
+    margin-bottom: 2em;
+}
+
+#footer {
+    padding: 2em 0 1em 0;
+    font-size: 92%;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+#me .content.title {
+    width: 70%;
+    text-align: left;
+}
+
+#me .content {
+    width: 30%;
+    text-align: right;
+}
+
+.contact-info {
+    margin-top: 7px;
+    float:right;
+}
+
+#pdf {
+    display: block;
+    float: right;
+    background: #666;
+    color: white;
+    padding: 6px 12px 6px 12px;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 152%;
+}
+
+.title h2 {
+    font-style: italic;
+}
+
+h4, h6{
+    font-size: 122%;
+}
+
+h1, h2, h3, h4, h6{
+    color: #333;
+    font-weight: normal;
+}
+
+h6{
+	font-style: italic;
+}
+
+p {
+    font-size: 100%;
+    line-height: 18px;
+    padding-right: 3em;
+}
+
+a.org{
+    color: #EB900F;
+    text-decoration: none;
+}
+
+a.none{
+	color: #333;
+    text-decoration: none;
+}
+
+a:hover{
+	color: #949E9E;
+}
+
+.li ed{
+	list-style-type:circle;
+    line-height: 100%;
+}
+
+.li ex{
+	list-style-type:circle;
+}
+
+ul li.tal{
+	border-bottom: 1px solid #ccc;
+}
+
+.hangingindent {
+	font-size: 14px;
+    line-height: 18px;
+    padding-right: 0em;
+	list-style-position:inside;
+    padding-left: 50px;
+    text-indent: -30px;
+}
+
+.section {
+    float: left;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.content.title {
+    float: left;
+    width: 15%;
+}
+
+.content {
+    float: right;
+    width: 80.2%;
+}
+
+.ed {
+    position: relative;
+}
+
+.ed h4 {
+    position: absolute;
+    top: 0.35em;
+    right: 0;
+    text-align: right;
+}
+
+.ed p {
+    margin: 0.75em 0 0 0;
+}
+
+.job {
+    position: relative;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+.job h3{
+	text-transform: uppercase;
+	font-size: 95%;
+}	
+
+.job h4, .project h4, .ed h4, .projectlast h4{
+    position: absolute;
+    top: 0.35em;
+    right: 0;
+    text-align: right;
+}
+
+.job h5 {
+    font-size: 122%;
+	float: right;
+	color: #333;
+    font-weight: normal;
+}
+
+.job p {
+    margin: 0.75em 0 0 0;
+}
+
+.project{
+	position: relative;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+	float:right;
+	width: 100%;
+}
+
+.projectlast{
+	position: relative;
+	float:right;
+	width: 100%;
+}
+
+.talent {
+	width: 32%;
+    float: left;
+	line-height: 24px;
+	list-style: none;
+}
+
+.talent h2 {
+    margin-bottom: 6px;
+}
+
+.last{
+    border: none;
+    float: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#header:after, #body:after, #footer:after, #me:after, .last:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
