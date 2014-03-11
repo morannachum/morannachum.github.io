@@ -1,0 +1,27 @@
+/*
+--------------------------------------------------------------------------------
+
+Based on the YUI framework & Matt Brown's template: sampleresumetemplate.net
+Complete CSS overhaul & much design fine-tuning by Nate Tarrh: natetarrh.com
+
+Enhanced by Moran Nachum.
+
+--------------------------------------------------------------------------------
+*/
+
+body, div, p{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#doc {
+	text-align: center;
+}
+

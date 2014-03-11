@@ -3,35 +3,56 @@
 		<title>404: Uh Oh</title>
 		<link rel="shortcut icon" href="images/m_icon.jpg" />
 		<script src="javascripts/processing-1.4.1.min.js"></script>
+		<link rel="stylesheet" href="stylesheets/404.css"/>
 	</head>
 	<body>
-		<script type = "text/processing" data-processing-target = "processing-canvas">
-			int steps = 50;  
-			
-			boolean sketchFullScreen() {
-				return true;
-			}
-			
-			int resX = window.innerWidth;
-			int resY = window.innerHeight;
-			
-			void setup() {
-				size(resX, resY);
-				colorMode(RGB,round((steps/2)));
-			}
-
-			void draw() {
-				for(int r = 0; r < (round((steps/2))+1); r = r + 1){
-					fill(r);
-					stroke(r);
-					rect((resX/2) - (r*(floor(resX/steps))) - 0.5*(floor(resX/steps)),0,floor(resX/steps),floor(resY));
-					rect((resX/2) + (r*(floor(resX/steps))) - 0.5*(floor(resX/steps)),0,floor(resX/steps),floor(resY));
+		<div id = "doc">
+			<script type = "text/processing" data-processing-target = "processing-canvas">
+				int steps = 50;  
+				PFont CSB;
+				PFont BUPC;
+				
+				boolean sketchFullScreen() {
+					return true;
 				}
-				  
-				steps = int(abs(mouseX-(resX/2))/(resX/50)) + 6;
-			}
-		</script>
-		<canvas href="http://www.morannachum.com" id="processing-canvas" margin-left:auto margin-right:auto width = 100% height = 100%>
-		</canvas>
+				
+				int resX = window.innerWidth;
+				int resY = window.innerHeight;
+				
+				void setup() {
+					size(resX, resY);
+					colorMode(RGB,round((steps/2)));
+				}
+
+				void draw() {
+					for(int r = 0; r < (round((steps/2))+1); r = r + 1){
+						fill(r);
+						stroke(r);
+						rect((resX/2) - (r*(floor(resX/steps))) - 0.5*(floor(resX/steps)),0,floor(resX/steps),floor(resY));
+						rect((resX/2) + (r*(floor(resX/steps))) - 0.5*(floor(resX/steps)),0,floor(resX/steps),floor(resY));
+					}
+					  
+					steps = int(abs(mouseX-(resX/2))/(resX/50)) + 6;
+					
+					CSB = loadFont("data/CenturySchoolbook-Bold-200.vlw");
+					BUPC = loadFont("data/BrowalliaUPC-Bold-30.vlw");
+					
+					fill(255,255,255);
+					textAlign(CENTER);
+					textFont(CSB);
+					textSize(180);
+					text("404",(resX/3),(resY/4),(resX/3),(resY/4));
+					textSize(23); 
+					text("Whoopsi Goldberg! How'd you get here?",(resX/3),(resY/2),(resX/3),(resY/16));  
+					text("Please press the image to go back home.",(resX/3),((9*resY)/16),(resX/3),(resY/16)); 
+				}
+				
+				void mousePressed() { 
+					link("http://morannachum.com"); 
+				}
+			</script>
+			<canvas href="http://www.morannachum.com" id="processing-canvas" margin-left:auto margin-right:auto width = 100% height = 100%>
+			</canvas>
+		</div>
 	</body>
 </html>	
