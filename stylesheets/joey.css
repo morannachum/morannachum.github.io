@@ -1,0 +1,186 @@
+/*
+ * STYLES UPON STYLES UPON STYLES IS WHAT I HAVE
+ * YOU WANNA DISS CSS, BUT YOU STILL DON'T KNOW THE HALF
+ * - Phife Dawg, if he were a software engineer
+ *
+ * Jacked from http://www.joeyyang.com/ 
+ *
+ */
+
+.image {
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero {
+  background:url(file:///C:/Users/Moran/Documents/GitHub/morannachum.github.io/images/2012-06-08%2008.49.34.jpg) no-repeat 0 0;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  float: right;
+  position: fixed;
+  right: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div .main-text, .sub-text {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 16px;
+  margin-right: 16px;
+}
+
+div .main-text {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  margin-left: 32px;
+}
+
+.main-text .main-p {
+  color: white;
+  font: 30px Helvetica, sans-serif;
+  margin-top: 8px;
+ }
+
+h1 {
+  color: white;
+  font: bold 64px Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+div .sub-text {
+  position: absolute;
+  top: 170px;
+  left: 0;
+  margin-left: 32px;
+}
+
+p {
+  color: white;
+  font: 20px Helvetica, sans-serif;
+  margin: 2px 0px;
+  line-height: 140%;
+}
+
+p.sidenote {
+  font: 12px Helvetica, sans-serif;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
+
+span.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .image {
+    position: relative;
+  }
+  .hero {
+    background: url(file:///C:/Users/Moran/Documents/GitHub/morannachum.github.io/images/2012-06-08%2008.49.34.jpg);
+    min-width: 1440px;
+    min-height: 100%;
+    min-width: 100%;
+    float: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  div .main-text {
+    top: 90px;
+    margin-left: 16px;
+  }
+
+  .main-text .main-p {
+    font: 24px Helvetica, sans-serif;
+    margin-top: 8px;
+  }
+
+  div .sub-text {
+    top: 275px;
+    margin-left: 16px;
+  }
+
+  h1 {
+    font: bold 48px Helvetica, sans-serif;
+  }
+
+  p {
+    font: 24px Helvetica, sans-serif;
+  }
+
+  span.mobile {
+    display: inline;
+  }
+
+}
+
+
+@media only screen and (max-width: 481px) {
+  .image {
+    position: relative;
+  }
+
+  .hero {
+    background: url(file:///C:/Users/Moran/Documents/GitHub/morannachum.github.io/images/2012-06-08%2008.49.34.jpg);
+    min-width: 1440px;
+    min-height: 100%;
+    min-width: 100%;
+    float: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+  }
+
+  div .main-text {
+      top: 15px;
+      margin-left: 16px;
+    }
+
+    .main-text .main-p {
+      font: 18px Helvetica, sans-serif;
+      margin-top: 8px;
+    }
+
+  div .sub-text {
+    top: 267px;
+    padding: 9px;
+    margin-left: 16px;
+  }
+
+  h1 {
+    font: bold 32px Helvetica, sans-serif;
+  }
+
+  p {
+    font: 16px Helvetica, sans-serif;
+  }
+
+  span.mobile {
+    display: inline;
+  }
+
+}

@@ -1,0 +1,117 @@
+/*
+
+Lifted from www.markromanek.com
+
+*/
+
+body {
+	background: #FF9999;
+	color: #FFFFFF;
+	font-family: "Courier New", Courier, monospace;
+    padding: 20px;
+	line-height: 14pt;
+}
+
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #222222;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	margin-bottom: 20px;
+}
+
+#nav {
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	width: 250px;
+	height: auto;
+}
+
+#content {
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	width: 550px;
+	height: auto;
+	padding-top: none;
+	padding-left: none;
+	padding-right: none;
+	padding-bottom: none;
+}
+
+h1 {
+	font-size: xx-large;
+}
+
+.navlink {
+	font-family: "Courier New", Courier, monospace;
+	color: #FFFFFF;
+	font-size: medium;
+	line-height: 14pt;
+}
+
+a.navlink:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.navlink:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.navlink:hover {
+	color: #222222;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+
+a.navlink:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.builtbyben {
+	color: #FFFFFF;
+	font-family: "Courier New", Courier, monospace;
+}
+
+a.builtbyben:link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+a.builtbyben:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+a.builtbyben:hover {
+	color: #222222;
+	text-decoration: underline;
+	background-color: #FFFFFF;
+}
+
+a.builtbyben:active {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
