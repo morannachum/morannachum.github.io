@@ -9,7 +9,7 @@ body {
 	color: #FFFFFF;
 	font-family: "Courier New", Courier, monospace;
     padding: 20px;
-	line-height: 14pt;
+	line-height: 24pt;
 }
 
 a:link {
@@ -56,17 +56,19 @@ img {
 	padding-left: none;
 	padding-right: none;
 	padding-bottom: none;
+	font-size: 24pt;
+	line-height: 26pt;
 }
 
 h1 {
-	font-size: xx-large;
+	font-size: 50pt;
 }
 
 .navlink {
 	font-family: "Courier New", Courier, monospace;
 	color: #FFFFFF;
-	font-size: medium;
-	line-height: 14pt;
+	font-size: 32pt;
+	line-height: 34pt;
 }
 
 a.navlink:link {
