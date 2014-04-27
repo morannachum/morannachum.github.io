@@ -17,7 +17,7 @@
 }
 
 .hero {
-  background:url(images/2012-06-08 2008.49.34.jpg) no-repeat 0 0;
+  background:url("2012-06-08 2008.49.34.jpg") no-repeat 0 0;
   background-size: cover;
   min-width: 100%;
   min-height: 100%;
@@ -94,7 +94,7 @@ span.mobile {
     position: relative;
   }
   .hero {
-    background: url(images/2012-06-08 2008.49.34.jpg);
+    background: url("2012-06-08 2008.49.34.jpg");
     min-width: 1440px;
     min-height: 100%;
     min-width: 100%;
@@ -142,7 +142,7 @@ span.mobile {
   }
 
   .hero {
-    background: url(images/2012-06-08 2008.49.34.jpg);
+    background: url("2012-06-08 2008.49.34.jpg");
     min-width: 1440px;
     min-height: 100%;
     min-width: 100%;
