@@ -85,6 +85,10 @@ a:hover{
   color: white;
 }
 
+a.none{
+    text-decoration: none;
+}
+
 span.mobile {
   display: none;
 }
