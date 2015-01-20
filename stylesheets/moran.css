@@ -36,12 +36,13 @@ hr {
 .tile {
 	width: 300px;
 	height: 300px;
-	padding: 10px;
+	padding: 10px 5px;
 	display: inline-block;
 	clear: left;
 	vertical-align: top;
 	position: relative;
-	overflow: hidden;  
+	overflow: hidden; 
+	text-align: left;
 }
 
 li {
@@ -81,6 +82,15 @@ li {
 	background-position: -300px -600px;
 }
 
+.foliofn {
+	background-position: 0px -900px;
+}
+
+.foliofn:hover {
+	background-position: -300px -900px;
+}
+
+
 footer {
 	width: 100%;
 	position: relative;
@@ -101,7 +111,8 @@ a {
 	text-decoration: none;
 }
 
-.center{
+#center{
+	text-align: left;
 	margin: auto;
 	display: table;
 	width: 93%;
