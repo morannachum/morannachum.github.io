@@ -11,7 +11,7 @@
 			alwaysOpenForm: true, /* always open form, even on mobile */
 			ready: function() { /*fires when the Carcode configured widget script below is loaded and ready */
 				var widget = new CarcodeWidget(),
-				buttons = document.querySelectorAll(".sms-button");
+				buttons = document.querySelectorAll(".chat-button");
 				for (var i = 0; i < buttons.length; i++) {
 					buttons[i].onclick = widget.clickHandler;
 				}
