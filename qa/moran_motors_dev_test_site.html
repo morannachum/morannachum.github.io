@@ -34,9 +34,8 @@
          ready: function() { /*fires when the Carcode configured widget script below is loaded and ready */
              var widget = new CarcodeWidget(),
                  buttons = document.querySelectorAll(".sms-button");
-                 widget.openChat()
              for (var i = 0; i < buttons.length; i++) {
-                 buttons[i].onclick = widget.clickHandler;
+                 buttons[i].onclick = widget.openChat();
              }
          },
      };
