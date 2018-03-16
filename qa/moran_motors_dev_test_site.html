@@ -9,7 +9,7 @@
 <body>
     <a href="#" class="sms-button button" data-vin="5YFBURHE0HP727111" data-make="Honda" data-model="Civic" data-year="2016">Text Us NOW! #1</a><br>
     <a href="#" class="sms-button button" data-vin="5YFBURHE0HP727112" data-make="Honda" data-model="Civic" data-year="2016">Text Us NOW! #2</a><br>
-    <a href="#" class="chat-button button" data-vin="5YFBURHE0HP727112" data-make="Honda" data-model="Civic" data-year="2016">Chat With ME</a><br>
+    <a href="#" class="chat-button button" data-vin="5YFBURHE0HP727112" data-make="Honda" data-model="Civic" data-year="2016" id="chat">Chat With ME</a><br>
     <a class="btn btn-default ui-button sms-button ui-button-text-only ui-state-hover" href="sms:15407122186" data-make="Honda" data-model="Accord" data-vin="1HGCV2F58JA016117" data-year="2018" data-status="New" data-sdk-attached="true" data-chat-button="true" style="visibility: visible;">
         <span class="ui-button-text">Text Us NOW! #3</span><br>
     </a>
@@ -34,6 +34,7 @@
          ready: function() { /*fires when the Carcode configured widget script below is loaded and ready */
              var widget = new CarcodeWidget(),
                  buttons = document.querySelectorAll(".sms-button");
+                 buttons = document.querySelectorAll(".chat-button");
              for (var i = 0; i < buttons.length; i++) {
                  buttons[i].onclick = widget.clickHandler;
              }
