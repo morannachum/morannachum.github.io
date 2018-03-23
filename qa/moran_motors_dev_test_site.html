@@ -12,23 +12,23 @@
        leadTags: 'edmunds',
        cannedMessagesType: 'bubble'
      };
-     var widget = new CarcodeWidget();
-     widget.init(()=>
-     {
-       var button = document.querySelector(".button");
-       var chatOpened = false;
-       button.onclick = function (event) {
-         if (!chatOpened) {
-           widget.openChat();
-           button.innerText = "Close chat";
-           chatOpened = true;
-         } else {
-           widget.closeChat();
-           button.innerText = "Open chat";
-           chatOpened = false;
-         }
-       }
-     })
+     // var widget = new CarcodeWidget();
+     // widget.init(()=>
+     // {
+     //   var button = document.querySelector(".button");
+     //   var chatOpened = false;
+     //   button.onclick = function (event) {
+     //     if (!chatOpened) {
+     //       widget.openChat();
+     //       button.innerText = "Close chat";
+     //       chatOpened = true;
+     //     } else {
+     //       widget.closeChat();
+     //       button.innerText = "Open chat";
+     //       chatOpened = false;
+     //     }
+     //   }
+     // })
     </script>
     <script src='https://dev-dsg11-www.carcodesms.com/widgets/257165.js' type='text/javascript'></script>
   </head>
