@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Title</title>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143585592-1"></script>
+     <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+
+       gtag('config', 'UA-143585592-1');
+     </script>
+     <script type='text/javascript'>
+       window.__carcode = {
+       skipButton = 'false'
+      };
+     </script>
+     <script type='text/javascript'>
+        window.addEventListener('load', (event) => {
+        const zIndexVal = 2147483647;
+        const mockCCPABanner = () => {     
+          const banner = document.createElement('div');
+          banner.innerText="HELLO WORLD";
+          banner.style.backgroundColor = "red";
+          banner.style.width="100%";
+          banner.style.height="20%";
+          banner.style.position="absolute";
+          banner.style.bottom="0px";
+          banner.style.zIndex = zIndexVal;
+          document.querySelector('body').insertAdjacentElement('beforeend', banner);
+        }
+        console.log('Injecting banner');
+        mockCCPABanner();
+
+        let payload = document.createElement('script');
+        payload.src = 'https://dev-dsg11-www.carcodesms.com/widgets/s/qng7vv.js';
+        let target = document.querySelector('body');
+        target.insertAdjacentElement('beforeend', payload);
+      });
+     </script>
+     <!-- <script src='https://dev-dsg11-www.carcodesms.com/widgets/s/w22qlr.js?skip_optimization=true' type='text/javascript' async defer ></script> -->
+  </head>
+  <body>
+    <div class='edmunds-trade-in' data-configmake='panoz' data-dealerid='1819230' data-display='no-banner-overlay' data-tradein='allOptional'></div>
+    <a href="moran_motors_dev_test_site.html">Home Page</a><br>
+  </body>
+  <script src="https://vehicle-appraisal.edmunds.com/static/js/edm-eva.js"></script>
+</html>
