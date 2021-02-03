@@ -1,0 +1,167 @@
+/* -500 */
+
+#inner {
+    border-width: 5px 0 2px 0;
+    margin: 5px auto;
+    padding: 5px 10px;
+	max-width: 440px;
+	width: 90%;
+}
+
+#header h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.tile {
+	width: 100px;
+	height: 87.5px;
+	padding: 0;
+	display: inline-block;
+	clear: left;
+	vertical-align: top;
+	position: relative;
+	overflow: hidden;  
+}
+
+li {
+	display: block;
+	position: relative;
+	width: 100px;
+	height: 87.5px;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url('../images/all smallest.png');
+}
+
+.fifty {
+	background-position: 0px 0px;
+}
+
+.asap {
+	background-position: -100px 0px;
+}
+
+.danny {
+	background-position: -200px 0px;
+}
+
+.drake {
+	background-position: -300px 0px;
+}
+
+.jadakiss {
+	background-position: 0px -87.5px;
+}
+
+.jay {
+	background-position: -100px -87.5px;
+}
+
+.jeezy {
+	background-position: -200px -87.5px;
+}
+
+.juicy {
+	background-position: -300px -87.5px;
+}
+
+.cudi {
+	background-position: 0px -175px;
+}
+
+.weezy {
+	background-position: -100px -175px;
+}
+
+.nicki {
+	background-position: -200px -175px;
+}
+
+.pusha {
+	background-position: -300px -175px;
+}
+
+.ti {
+	background-position: 0px -262.5px;
+}
+
+.trina {
+	background-position: -100px -262.5px;
+}
+
+.waka {
+	background-position: -200px -262.5px;
+}
+
+.wiz {
+	background-position: -300px -262.5px;
+}
+
+.fifty:hover {
+	background-position: 0px -350px;
+}
+
+.asap:hover {
+	background-position: -100px -350px;
+}
+
+.danny:hover {
+	background-position: -200px -350px;
+}
+
+.drake:hover {
+	background-position: -300px -350px;
+}
+
+.jadakiss:hover {
+	background-position: 0px -437.5px;
+}
+
+.jay:hover {
+	background-position: -100px -437.5px;
+}
+
+.jeezy:hover {
+	background-position: -200px -437.5px;
+}
+
+.juicy:hover {
+	background-position: -300px -437.5px;
+}
+
+.cudi:hover {
+	background-position: 0px -525px;
+}
+
+.weezy:hover {
+	background-position: -100px -525px;
+}
+
+.nicki:hover {
+	background-position: -200px -525px;
+}
+
+.pusha:hover {
+	background-position: -300px -525px;
+}
+
+.ti:hover {
+	background-position: 0px -612.5px;
+}
+
+.trina:hover {
+	background-position: -100px -612.5px;
+}
+
+.waka:hover {
+	background-position: -200px -612.5px;
+}
+
+.wiz:hover {
+	background-position: -300px -612.5px;
+}
