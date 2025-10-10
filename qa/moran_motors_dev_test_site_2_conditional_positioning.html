@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <script type='text/javascript'>
+      // Define a mobile breakpoint (e.g., 768px, a common tablet/mobile cutoff)
+      const MOBILE_BREAKPOINT = 768; 
+      let themeConfig = {};
+
+      // Check if the current viewport width is less than the mobile breakpoint
+      if (window.innerWidth < MOBILE_BREAKPOINT) {
+        // Apply positive Y-offset (56px) ONLY for mobile
+        themeConfig.offsetY = -56;
+      }
+      
+      // The themeConfiguration object will be empty if not on mobile, 
+      // or contain { offsetY: 56 } if on mobile.
+      window.__carcode = {
+        themeConfiguration: themeConfig
+      };
+    </script>
+    <script src='https://dev-dsg11-www.carcodesms.com/widgets/s/w22qlr.js?skip_optimization=true' type='text/javascript' async defer ></script>
+  </head>
+  <body>
+    <p>This is a car website</p>
+  </body>
+</html>
