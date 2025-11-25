@@ -13,12 +13,15 @@
       if (window.innerWidth < MOBILE_BREAKPOINT) {
         // Apply positive Y-offset (56px) ONLY for mobile
         themeConfig.offsetY = -56;
+
+        // Add the buttonOnlyTransition setting ONLY for mobile
+        themeConfig.buttonOnlyTransition = true;
       }
       
       // The themeConfiguration object will be empty if not on mobile, 
       // or contain { offsetY: 56 } if on mobile.
       window.__carcode = {
-        themeConfiguration: themeConfig
+        themeConfiguration: themeConfig,
       };
     </script>
     <script src='https://dev-dsg11-www.carcodesms.com/widgets/s/w22qlr.js?skip_optimization=true' type='text/javascript' async defer ></script>
